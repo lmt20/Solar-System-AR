@@ -14,9 +14,9 @@ INTRODUCTION
 - This app used swift as programming language. Used Alamofire library to handle network requests, SwiftyJSON to parse JSON
 - Connecting to Wikipedia API to get general planet infomation
 
-![alt text](https://ibb.co/GV5QNQD)
-![alt text](https://ibb.co/26hj1mt)
-![alt text](https://ibb.co/rmtR9Ry)
+![alt text](https://github.com/lmt20/Images/blob/main/Solar%20System%20AR/IMG_6884.PNG)
+![alt text](https://github.com/lmt20/Images/blob/main/Solar%20System%20AR/IMG_6885.PNG)
+![alt text](https://github.com/lmt20/Images/blob/main/Solar%20System%20AR/IMG_6886.PNG)
 
 REQUIREMENTS
 ------------
