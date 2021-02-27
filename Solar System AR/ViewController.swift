@@ -115,7 +115,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     }
     
     @objc func checkNodeHit(_ gesture : UIGestureRecognizer){
-        print("Detect touch")
+//        print("Detect touch")
         let currentTouchLocation = gesture.location(in: self.sceneView)
         
         guard let hitTestNode = sceneView.hitTest(currentTouchLocation, options: nil).first?.node else {
