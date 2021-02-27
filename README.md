@@ -9,9 +9,9 @@
 INTRODUCTION
 ------------
 - This is an IOS app using Augmented Reality
-- It will place a solar system right in your phone. You will have a fantastic journey to traveling the planets: Mercury, Venus, Earth, Moon, Mars, Jupiter, Saturn, Uranus, Neptune and Pluto
-- You can tap to a planet to view general info about them 
-- This app used swift as programming language. Used Alamofire library to handle network requests, SwiftyJSON to parse JSON
+- A solar system will be placed in your phone using your camera. You will have a fantastic journey to travel the planets: Mercury, Venus, Earth, Moon, Mars, Jupiter, Saturn, Uranus, Neptune and Pluto
+- You can tap to any planets to view general info about them 
+- This app used swift as programming language, Alamofire library to handle network requests, SwiftyJSON to parse JSON
 - Connecting to Wikipedia API to get general planet infomation
 
 ![alt text](https://github.com/lmt20/Images/blob/main/Solar%20System%20AR/IMG_6884.PNG)
