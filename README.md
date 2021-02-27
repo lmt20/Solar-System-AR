@@ -9,7 +9,7 @@
 INTRODUCTION
 ------------
 - This is an IOS app using Augmented Reality
-- A solar system will be placed in your phone using your camera. You will have a fantastic journey to discover the planets using your camera: Mercury, Venus, Earth, Moon, Mars, Jupiter, Saturn, Uranus, Neptune and Pluto
+- A solar system will be placed in your phone. You will have a fantastic journey to discover the planets using your camera: Mercury, Venus, Earth, Moon, Mars, Jupiter, Saturn, Uranus, Neptune and Pluto
 - You can tap to any planets to view general info about them 
 - This app used swift as programming language, Alamofire library to handle network requests, SwiftyJSON to parse JSON
 - It can connect with Wikipedia API to get general planets infomation
