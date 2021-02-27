@@ -3,27 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E371FC3025EA5FAD006329B9 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = E371FC2F25EA5FAD006329B9 /* SwiftyJSON */; };
+		E371FC3425EA5FDE006329B9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E371FC3325EA5FDE006329B9 /* Alamofire */; };
 		E392196225EA14DE000C048A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392196125EA14DE000C048A /* AppDelegate.swift */; };
 		E392196425EA14DE000C048A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E392196325EA14DE000C048A /* art.scnassets */; };
 		E392196625EA14DE000C048A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392196525EA14DE000C048A /* ViewController.swift */; };
 		E392196925EA14DE000C048A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E392196725EA14DE000C048A /* Main.storyboard */; };
-		E392196B25EA14DF000C048A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E392196A25EA14DF000C048A /* Assets.xcassets */; };
 		E392196E25EA14DF000C048A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E392196C25EA14DF000C048A /* LaunchScreen.storyboard */; };
+		E392197725EA14F2000C048A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E392197625EA14F2000C048A /* Assets.xcassets */; };
+		E392197C25EA1D34000C048A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392197B25EA1D34000C048A /* Constant.swift */; };
+		E392197F25EA1D4F000C048A /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392197E25EA1D4F000C048A /* Planet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7967EE5E3D4ED5041F7A6B0D /* Pods-Solar System AR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solar System AR.release.xcconfig"; path = "Target Support Files/Pods-Solar System AR/Pods-Solar System AR.release.xcconfig"; sourceTree = "<group>"; };
+		952CB4DD05D4548157A2DBE3 /* Pods-Solar System AR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solar System AR.debug.xcconfig"; path = "Target Support Files/Pods-Solar System AR/Pods-Solar System AR.debug.xcconfig"; sourceTree = "<group>"; };
 		E392195E25EA14DE000C048A /* Solar System AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar System AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E392196125EA14DE000C048A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E392196325EA14DE000C048A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		E392196525EA14DE000C048A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E392196825EA14DE000C048A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E392196A25EA14DF000C048A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E392196D25EA14DF000C048A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E392196F25EA14DF000C048A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E392197625EA14F2000C048A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../IOS-AR-Solar-System/IOS-AR-app/Assets.xcassets"; sourceTree = "<group>"; };
+		E392197B25EA1D34000C048A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E392197E25EA1D4F000C048A /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E371FC3425EA5FDE006329B9 /* Alamofire in Frameworks */,
+				E371FC3025EA5FAD006329B9 /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B43B37C387600C5F51E629F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		813087D8BD700B0CE9877D6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				952CB4DD05D4548157A2DBE3 /* Pods-Solar System AR.debug.xcconfig */,
+				7967EE5E3D4ED5041F7A6B0D /* Pods-Solar System AR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E392195525EA14DE000C048A = {
 			isa = PBXGroup;
 			children = (
 				E392196025EA14DE000C048A /* Solar System AR */,
 				E392195F25EA14DE000C048A /* Products */,
+				6B43B37C387600C5F51E629F /* Frameworks */,
+				813087D8BD700B0CE9877D6D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +84,25 @@
 		E392196025EA14DE000C048A /* Solar System AR */ = {
 			isa = PBXGroup;
 			children = (
+				E392197A25EA1D19000C048A /* Models */,
 				E392196125EA14DE000C048A /* AppDelegate.swift */,
 				E392196325EA14DE000C048A /* art.scnassets */,
 				E392196525EA14DE000C048A /* ViewController.swift */,
 				E392196725EA14DE000C048A /* Main.storyboard */,
-				E392196A25EA14DF000C048A /* Assets.xcassets */,
+				E392197625EA14F2000C048A /* Assets.xcassets */,
 				E392196C25EA14DF000C048A /* LaunchScreen.storyboard */,
 				E392196F25EA14DF000C048A /* Info.plist */,
 			);
 			path = "Solar System AR";
+			sourceTree = "<group>";
+		};
+		E392197A25EA1D19000C048A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E392197B25EA1D34000C048A /* Constant.swift */,
+				E392197E25EA1D4F000C048A /* Planet.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +112,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E392197225EA14DF000C048A /* Build configuration list for PBXNativeTarget "Solar System AR" */;
 			buildPhases = (
+				E3DFA48C37055D8D209F0F95 /* [CP] Check Pods Manifest.lock */,
 				E392195A25EA14DE000C048A /* Sources */,
 				E392195B25EA14DE000C048A /* Frameworks */,
 				E392195C25EA14DE000C048A /* Resources */,
@@ -83,6 +122,10 @@
 			dependencies = (
 			);
 			name = "Solar System AR";
+			packageProductDependencies = (
+				E371FC2F25EA5FAD006329B9 /* SwiftyJSON */,
+				E371FC3325EA5FDE006329B9 /* Alamofire */,
+			);
 			productName = "Solar System AR";
 			productReference = E392195E25EA14DE000C048A /* Solar System AR.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +153,10 @@
 				Base,
 			);
 			mainGroup = E392195525EA14DE000C048A;
+			packageReferences = (
+				E371FC2E25EA5FAD006329B9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				E371FC3225EA5FDE006329B9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = E392195F25EA14DE000C048A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,12 +173,37 @@
 			files = (
 				E392196425EA14DE000C048A /* art.scnassets in Resources */,
 				E392196E25EA14DF000C048A /* LaunchScreen.storyboard in Resources */,
-				E392196B25EA14DF000C048A /* Assets.xcassets in Resources */,
 				E392196925EA14DE000C048A /* Main.storyboard in Resources */,
+				E392197725EA14F2000C048A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E3DFA48C37055D8D209F0F95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Solar System AR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E392195A25EA14DE000C048A /* Sources */ = {
@@ -140,6 +212,8 @@
 			files = (
 				E392196625EA14DE000C048A /* ViewController.swift in Sources */,
 				E392196225EA14DE000C048A /* AppDelegate.swift in Sources */,
+				E392197C25EA1D34000C048A /* Constant.swift in Sources */,
+				E392197F25EA1D4F000C048A /* Planet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +357,7 @@
 		};
 		E392197325EA14DF000C048A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 952CB4DD05D4548157A2DBE3 /* Pods-Solar System AR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +377,7 @@
 		};
 		E392197425EA14DF000C048A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7967EE5E3D4ED5041F7A6B0D /* Pods-Solar System AR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -341,6 +417,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E371FC2E25EA5FAD006329B9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		E371FC3225EA5FDE006329B9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E371FC2F25EA5FAD006329B9 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E371FC2E25EA5FAD006329B9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		E371FC3325EA5FDE006329B9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E371FC3225EA5FDE006329B9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E392195625EA14DE000C048A /* Project object */;
 }

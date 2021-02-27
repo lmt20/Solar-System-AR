@@ -1,0 +1,6 @@
+framework module Pods_Solar_System_AR {
+  umbrella header "Pods-Solar System AR-umbrella.h"
+
+  export *
+  module * { export * }
+}
