@@ -14,6 +14,10 @@ INTRODUCTION
 - This app used swift as programming language. Used Alamofire library to handle network requests, SwiftyJSON to parse JSON
 - Connecting to Wikipedia API to get general planet infomation
 
+![alt text](https://ibb.co/GV5QNQD)
+![alt text](https://ibb.co/26hj1mt)
+![alt text](https://ibb.co/rmtR9Ry)
+
 REQUIREMENTS
 ------------
     platform :ios, '14.3'
